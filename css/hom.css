@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: '나눔고딕','NanumGothic','맑은고딕','Gothic';
+}
+a{
+  text-decoration: none;
+}
+body{
+  width: 960px;
+  margin: auto;
+  background-color: #1f1f1f;
+
+}
+#page-wrapper{
+  background-color: white;
+  margin: 0px 0 40px 0;
+  padding: 0px 20px 10px 20px;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+}
+#content{
+  overflow: hidden;
+}
+.lis{
+  color: black;
+  font-family: sans-serif;
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+}
+.lis1{
+  margin: 5px 5px 5px 5px;
+  color: blue;
+  padding: 5px 5px 5px 5px;
+  height: 20px;
+}
+
+.lis2
+{
+  border-style: dotted;
+  background-color: white;
+  padding-bottom: 10px;
+}
+
+.lis1:hover{
+  background-color: black;
+  color: white;
+}
+.main-article{
+background-color: white;
+}
+
+.main-table{
+  border-style: dashed;
+}
+
+.science{
+  background-color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.life{
+  background-color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.info{
+  background-color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h1{
+  padding: 20px 5px 20px 5px;
+  font-size: 30px;
+}
+.main-list{
+  margin: 20px 3px 20px 3px;
+  color: blue;
+}
+.main-list:hover{
+  background-color: black;
+  color: white;
+}
+.sunj:hover{
+  transform: rotateY(180deg);
+  transition: all 1s ease-in-out;
+  transform-style: preserve-3d;
+  background-color: #eaeaed;
+  perspective: 600;
+  cursor: pointer;
+}
+#main-aside{
+  background-color: white;
+  margin: 40px 0 40px 0;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+  overflow: hidden;
+  float: right;
+  width: 200px;
+
+}
+footer{
+  font-size: 10px;
+  color: white;
+}
